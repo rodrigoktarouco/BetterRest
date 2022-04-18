@@ -11,6 +11,7 @@
 		EF4DEC542806020C00332928 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4DEC532806020C00332928 /* ContentView.swift */; };
 		EF4DEC562806020D00332928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DEC552806020D00332928 /* Assets.xcassets */; };
 		EF4DEC592806020D00332928 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DEC582806020D00332928 /* Preview Assets.xcassets */; };
+		EF6592A028089E0C00F1AD43 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EF65929F28089E0C00F1AD43 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EF4DEC532806020C00332928 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF4DEC552806020D00332928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4DEC582806020D00332928 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF65929F28089E0C00F1AD43 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		EF4DEC502806020C00332928 /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				EF65929F28089E0C00F1AD43 /* SleepCalculator.mlmodel */,
 				EF4DEC512806020C00332928 /* BetterRestApp.swift */,
 				EF4DEC532806020C00332928 /* ContentView.swift */,
 				EF4DEC552806020D00332928 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4DEC542806020C00332928 /* ContentView.swift in Sources */,
+				EF6592A028089E0C00F1AD43 /* SleepCalculator.mlmodel in Sources */,
 				EF4DEC522806020C00332928 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
